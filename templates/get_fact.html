@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Chameleon Fact</title>
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Chameleon Fact</h1>
+    <p>{{ fact }}</p>
+    <div>
+        <h2>Would you like another?</h2>
+    </div>
+    <form action="/continue" method="POST">
+        <input type="submit" name="submit_button" value="Yes">
+        <input type="submit" name="submit_button" value="No">
+    </form>
+</body>
+</html>
